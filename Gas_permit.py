@@ -8,7 +8,7 @@ pd.set_option('display.max_rows', None)      # shows all rows
 pd.set_option('display.width', 1000)         # increase total width
 pd.set_option('display.expand_frame_repr', False)  # prevent wrapping
 
-gas_df = pd.read_csv("Gas_Permits_number_2.csv")
+gas_df = pd.read_csv("Gas_Permits.csv")
 
 # print(df['STATUS'].describe()) # Shows count as 36231 should be 39k rows around 3k missing rows
 
